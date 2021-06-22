@@ -1,0 +1,46 @@
+{
+  "localExecution": "true",
+  "br_stack_username": "127.0.0.1",
+  "br_stack__automationkey": "4723",
+  "configuration": [
+    {
+      "configName": "BR_STACK_CHROME_WINDOWS",
+      "browser": "Chrome",
+      "browser_version": "83.0",
+      "os": "OS X",
+      "os_version": "Catalina",
+      "resolution": "1280x960",
+      "name": "Bstack-[Java] Sample Test",
+      "project": "NGS Automation",
+      "build": "sprint-1-Demo"
+    },
+    {
+      "configName": "BR_STACK_CHROME_ANDROID",
+      "build": "galaxy-S9-Firefox",
+      "project": "Loyalty LSE",
+      "device": "Samsung Galaxy S9",
+      "realMobile": "true",
+      "acceptSslCerts": "true",
+      "os_version": "8.0",
+      "browserName": "Firefox",
+      "browserstack.appium_version": "1.8.0",
+      "browserstack.localIdentifier": "Samsung Galaxy S9",
+      "project": "NGS Automation",
+      "build": "sprint-1-Demo"
+    },
+    {
+      "configName": "BR_STACK_CHROME_IPHONEX_MAC",
+      "device": "Google Pixel 4",
+      "browserName": "Chrome",
+      "browser_version": "84.0",
+      "real_mobile": "true",
+      "browserstack.appium_version": "1.17.0",
+      "os_version": "11.0",
+      "browserstack.console": "errors",
+      "name": "Bstack-[Java] Sample Test",
+      "project": "NGS Automation",
+      "build": "sprint-1-Demo",
+      "browserstack.idleTimeout": "180"
+    }
+  ]
+}

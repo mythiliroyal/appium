@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "baseConfig": [
+    {
+      "configurations": {
+        "showXcodelog": "true"
+      }
+    }
+  ],
+  "mobile_configurations": [
+    {
+      "platformType": "mobile",
+      "configurations": [
+        {
+          "configName": "S_Nexus6",
+          "execution_type": "simulator",
+          "capabilities": {
+            "platformName": "Android",
+            "deviceName": "Android Emulator",
+            "app": "/home/nikhilkamble/Downloads/YesGenie-DEV-1-9June.apk",
+            "bootstrapPath": "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-webdriveragent",
+            "noReset": "false",
+            "appPackage": "in.yesbank.genie",
+            "appActivity": ".MainActivity",
+            "autoGrantPermissions": "true",
+            "unicodeKeyboard": "true",
+            "resetKeyboard": "true"
+          }
+        }
+      ]
+    }
+  ]
+}

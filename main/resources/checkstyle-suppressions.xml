@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionFilter Configuration 1.0//EN"
+        "https://checkstyle.org/dtds/suppressions_1_0.dtd">
+
+<suppressions>
+    <suppress checks="JavadocMethod"
+              files="bmmobileapp[\\/]screens[\\/]"/>
+    <suppress checks="JavadocMethod"
+              files="bmmobileapp[\\/]stepdefinition[\\/]"/>
+    <suppress checks="HttpURLConnection"
+              files="Homepage.java"
+              lines="283,275-295"/>
+</suppressions>

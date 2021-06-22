@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "d606362f-7331-4e7f-ac05-5e2431dff3eb",
+		"name": "supriya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "www.google.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.google.com",
+					"host": [
+						"www",
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "www.nmrec.edu.in",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.nmrec.edu.in",
+					"host": [
+						"www",
+						"nmrec",
+						"edu",
+						"in"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
